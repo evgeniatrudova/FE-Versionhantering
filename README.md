@@ -7,7 +7,7 @@ En enkel övning i HTML och CSS; HTML & CSS stomme av en e-commerse hemsida som 
 
 # Personlig reflektion
 
-Jag har lärt mig att Github är byggt primärt för att underlätta arbete i grupp; varje del av kod har ett uppföljning  och kontroll system; vilket känns tryggt när man sannolikt kommer att få stöd som junior och redan har tillgång till ett smidig system för att se fel och lära sig av dem. 
+Jag har lärt mig att Github är bygt primärt för att underlätta arbete i grupp; varje del av kod har ett uppföljning  och kontroll system; vilket känns tryggt när man sannolikt kommer att få stöd som junior och redan har tillgång till ett smidig system för att se fel och lära sig av dem. 
 
 
 Lätt: Github är väldigt lik organisation verktyg Notion; så att hitta i Projects var det lättaste. Det är dock svårt att namnge olika arbetsmoment på ett proffesion passande sätt.
