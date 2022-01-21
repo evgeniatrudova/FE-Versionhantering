@@ -1,0 +1,207 @@
+ /* General */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: 0;
+  outline: 0;
+  scroll-behavior: smooth;
+}
+body{
+    font-family: 'EB Garamond', serif;
+}
+ /* General text and links */
+a{ 
+  text-decoration: none;
+  color:#555;
+}
+p{
+  color: #555;
+
+}
+ /* Navigation */
+.navbar {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+nav{
+  flex:1;
+  text-align: right;
+}
+nav ul {
+  display: inline-block;
+  list-style-type: none;
+}
+nav ul li {
+  display: inline-block;
+  margin-right: 40px;
+}
+/* Class Container; Hur man sätter upp text och img sida vid sida med hjälp av row och col.*/
+.container{
+   max-width: 1300px;
+   margin: auto;
+   padding-left: 25px;
+   padding-right: 25px;
+}
+.row{
+  display: flex;
+  margin-right: 100px;
+  margin-left: 100px;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around; 
+}
+.col-2{
+  flex-basis: 50%;
+  min-width: 300px;
+}
+.col-2 img {
+  max-width: 100%;
+  padding: 50px 0;
+}
+.col-2 h1 {
+  font-size:50px;
+  line-height: 60px;
+  margin: 25px 0;
+}
+ /* Knapp style */
+.btn{
+  display: inline-block;
+  background: #AC473D;
+  color: #F9EEDF;
+  padding: 8px 30px;
+  margin: 30px 0;
+}
+ /* Header */
+.header {
+  background: #F9EEDF;
+}
+.header .row {
+  margin-top :70px;
+}
+ /* Kontrol block som används under utveckling för att se storlek av container; ingår i footer*/
+.block{
+  background: #EAE3E6;
+}
+ /* Review Container; position av 3 img med sammanhängande text i mitten av sida*/
+.review-container{
+  max-width: 100%;
+  margin: auto;
+  padding-bottom: 100px;
+  background-color:#F9EEDF;
+}
+.review-container img {
+  margin-top: 40px;
+  
+}
+ /* Class small-container med 5 bilder och text*/
+.small-container{
+  max-width: 100%;
+  margin: auto;
+  background-color:#AC473D;
+}
+.small-container h1 {
+  color: #EAE3E6;
+  text-align: center;
+  padding: 20px;
+}
+.col-5 p {
+  color: #EAE3E6;
+}
+.col-5 h4 {
+  color: #EAE3E6;
+}
+.col-5{
+  flex-basis: 20%;
+  padding:10px;
+  min-width: 170px;
+  margin-bottom:50px;
+  
+}
+ /*Class Section 1, Section 2 och Ingrediens*/
+.section1  {
+    text-align: center; 
+    background: #AC473D;
+    padding-bottom: 100px;
+    color: #EAE3E6;
+}
+.section1 p {
+    color: #EAE3E6;  
+}
+.section2 {
+    padding:0;
+    margin:0;
+    text-align: center; 
+    background: #F9EEDF;
+    padding-bottom:100px;
+}
+.container-ingredients{
+    padding:0;
+    margin:0;
+    text-align: center; 
+    background: #F9EEDF;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+ /*Rating sjärna.*/
+.rating{
+  display:flex;
+  padding:0;
+  margin:0;
+}
+.rating li {
+  list-style-type:none;
+}
+.rating-item{
+  border: ;
+  cursor: pointer;
+  font-size 20px;
+  color: yellow;
+}
+.rating-item::before{
+  content:"\2605";
+}
+.rating-item.active ~ .rating-item::before{
+  content:"\2606";
+}
+.rating:hover .rating-item::before{
+  content:"\2605";
+}
+.rating-item:hover ~ .rating-item::before{
+  content: "\2606";
+}
+ /* Footer */
+.footer form,h2  {
+    padding-top: 100px;   
+    text-align: center;
+}
+.footer p{
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+ /* HTML> Products*/
+.products_sylt{
+  padding:0;
+  margin:0;
+  height: 1000px;
+}
+ /* HTML> Contact*/
+.contact{
+  padding:0;
+  margin:0;
+  height: 1000px;
+}
+ /* HTML> Recept*/
+.recepe{
+  padding:0;
+  margin:0;
+  height: 1000px;
+}
+ /* HTML> Eshop*/
+.eshop{
+  padding:0;
+  margin:0;
+  height: 1000px;
+}
